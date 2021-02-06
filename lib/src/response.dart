@@ -76,7 +76,7 @@ class Response extends BaseResponse {
 /// Defaults to [latin1] if the headers don't specify a charset or if that
 /// charset is unknown.
 Encoding _encodingForHeaders(Map<String, String> headers) =>
-    encodingForCharset(_contentTypeForHeaders(headers).parameters['charset']);
+    encodingForCharset(_contentTypeForHeaders(headers).parameters['charset'], utf8);
 
 /// Returns the [MediaType] object for the given headers's content-type.
 ///
