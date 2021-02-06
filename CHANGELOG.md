@@ -1,3 +1,7 @@
+## 0.12.4
+
+* Updates version number
+
 ## 0.12.3
 
 * Defaults to utf-8 decoding for responses
